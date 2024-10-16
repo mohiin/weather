@@ -8,10 +8,7 @@ let feelsLike = document.querySelector(".feels-like");
 let btn = document.querySelector('.btn');
 
 
-
-
-const a = "{current}.json?key={77a42dbe007042c8864124951241610}&q={dhaka}";
-const api_url = "http://api.weatherapi.com/v1/"
+const api_url = "https://api.weatherapi.com/v1/"
 const api_key = "77a42dbe007042c8864124951241610"
 
 
