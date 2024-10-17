@@ -38,12 +38,11 @@ button:hover {
     background-color: #0056b3;
 }
 
-#weatherResult {
-    margin-top: 20px;
+.form p{
+    color: #ef0000;
 }
-
 .card div{
-    padding: 1rem;
+    padding: 0.6rem;
     background-color: #007BFF;
     color:#fff;
     display: flex;
