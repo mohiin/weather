@@ -11,17 +11,32 @@
 <body>
     <div class="container">
         <div class="search-box">
-            <h1>Weather Widget</h1>
+            <h1>Daily Weather</h1>
             <form action="" class="form">
                 <input type="text" placeholder="Seach place" class="inp" required>
                 <button class="btn">Search</button>
                 <p class="err"></p>
             </form>
         </div>
-        <div class="card">
-            <div>
-                Temperature = <p class="temp"> 21 </p> &deg;C
-            </div>
+
+        <div class="box">
+           
+            <p>
+                <span class="temp"> 21 </span> <span class="bold">&deg;C</span> <br>
+                <span class="city"> Dhaka</span>,
+                <span class="country"> Bangladesh</span>.
+            </p>
+            <p>
+                The weather is currently <b><span class="desc"> sunny </span> </b>,
+                And It's <b><span class="is-day"> ... </span> </b>
+            </p>
+        </div>
+
+        <div class="info">
+            
+        </div>
+        <div class="row">
+           
             <div>
                 Humidity = <p class="humidity"> 66 </p> &deg;C
             </div>
@@ -34,15 +49,11 @@
             <div>
                 Feels like = <p class="feels-like"> 33 </p> &deg;C
             </div>
-            <div>
-                The weather is currently <b><p class="desc"> ... </p> </b>
-            </div>
-            <div>
-                And It's <b><p class="is-day"> ... </p></b>
-            </div>
            
-            
         </div>
+        
+       
+        
     </div>
     <script src="scirpt.js"></script>
 </body>
